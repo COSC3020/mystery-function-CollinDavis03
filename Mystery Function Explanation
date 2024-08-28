@@ -1,0 +1,12 @@
+With the line of if(a.length == 1) return a[0]; 
+It will handle if there is only one element in the array and will return that one single element.
+With the line of var foo = Mystery(a.slice(1, a.length));. 
+It will create a subarray that will exclude the first element and will recursively do that until it finds the maximum value with the subarray starting with the second value. 
+The line if(foo > a[0]) return foo); else return a[0]; 
+After the value from the last line is stored in foo it will compare it to the first element of the first array that has been written. 
+If foo is greater than the value in the array then it will return foo. Otherwise, it will return the element in a[0]. 
+
+
+I used Chatgpt to explain what a.slice was and how it is used so that I could get a better understanding of how the line of code from line 3 in this document worked.  
+A.slice is a method that is used to take a portion of an array to create a shallow copy of it and you use certain starts and ends to get to that copy. 
+Other than that search I pretty much did everything else on my own to figure out how this mystery function worked. 
